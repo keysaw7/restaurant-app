@@ -3,12 +3,13 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { Dish } from './types/dish';
 
 export default function HomePage() {
   const [showModal, setShowModal] = useState(false);
   const [userPreferences, setUserPreferences] = useState('');
   const [recommendation, setRecommendation] = useState<string>('');
-  const [recommendedDishes, setRecommendedDishes] = useState<any[]>([]);
+  const [recommendedDishes, setRecommendedDishes] = useState<Dish[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [selectedAllergens, setSelectedAllergens] = useState<string[]>([]);
@@ -42,6 +43,7 @@ export default function HomePage() {
       setRecommendedDishes(data.dishes);
     } catch (err) {
       setError('Une erreur est survenue. Veuillez réessayer.');
+      setRecommendedDishes([]);
     } finally {
       setIsLoading(false);
     }
@@ -233,7 +235,7 @@ export default function HomePage() {
                       <div key={dish.id} className="bg-white rounded-lg shadow-md overflow-hidden flex">
                         <div className="relative w-32 flex-shrink-0">
                           <Image
-                            src={dish.imageUrl}
+                            src={dish.imageUrl || '/images/placeholder-dish.jpg'}
                             alt={dish.name}
                             fill
                             className="object-cover"

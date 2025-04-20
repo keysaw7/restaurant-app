@@ -16,7 +16,7 @@ export default function MenuPage() {
       {
         id: 'share1',
         name: 'Assiette de Charcuterie',
-        description: "Une sélection raffinée des meilleures charcuteries corses traditionnelles. Notre plateau met à l'honneur le savoir-faire des producteurs locaux avec une délicate association de Coppa affinée, Lonzu aux herbes de maquis, Prisuttu séché en montagne et saucisson artisanal.",
+        description: "Une sélection raffinée des meilleures charcuteries corses traditionnelles. Notre plateau met à l&apos;honneur le savoir-faire des producteurs locaux avec une délicate association de Coppa affinée, Lonzu aux herbes de maquis, Prisuttu séché en montagne et saucisson artisanal.",
         price: 18,
         category: 'entrée',
         ingredients: ['Coppa', 'Lonzu', 'Prisuttu', 'Saucisson'],
