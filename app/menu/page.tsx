@@ -270,7 +270,7 @@ export default function MenuPage() {
           </h1>
           <p className="text-center text-gray-100 text-xl max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
             Découvrez notre sélection de plats traditionnels corses revisités,
-            inspirés par la richesse gastronomique de l'île de beauté
+            inspirés par la richesse gastronomique de l&apos;île de beauté
           </p>
         </div>
       </div>

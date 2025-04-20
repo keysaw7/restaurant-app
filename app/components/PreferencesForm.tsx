@@ -19,7 +19,7 @@ export default function PreferencesForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: Implémenter l'envoi des préférences à l'API
+    // TODO: Implémenter l&apos;envoi des préférences à l&apos;API
     console.log('Préférences soumises:', preferences);
   };
 
