@@ -33,7 +33,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# Ignorer les fichiers volumineux
-/public/images/**/*.jpeg
-/public/images/**/*.png

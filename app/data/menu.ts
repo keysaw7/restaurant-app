@@ -23,7 +23,7 @@ export const menu: Dish[] = [
     allergens: [],
     dietaryRestrictions: [],
     recommendedPairings: ['Vin rouge Patrimonio', 'Vin rouge Figari'],
-    imageUrl: '/images/dishes/entrees/assiette-charcuterie.jpeg'
+    imageUrl: '/images/dishes/entrees/assiette-charcuterie.webp'
   },
   {
     id: 'share2',
@@ -35,7 +35,7 @@ export const menu: Dish[] = [
     allergens: ['lait'],
     dietaryRestrictions: [],
     recommendedPairings: ['Vin blanc Vermentinu', 'Muscat du Cap Corse'],
-    imageUrl: '/images/dishes/entrees/planche-fromage.jpeg'
+    imageUrl: '/images/dishes/entrees/planche-fromage.webp'
   },
   // Entrées
   {
@@ -48,7 +48,7 @@ export const menu: Dish[] = [
     allergens: ['lait'],
     dietaryRestrictions: ['végétarien'],
     recommendedPairings: ['Vin blanc Clos Venturi', 'Vin rosé de Provence'],
-    imageUrl: '/images/dishes/entrees/beignets-courgettes.jpeg'
+    imageUrl: '/images/dishes/entrees/beignets-courgettes.webp'
   },
   {
     id: 'starter2',
@@ -60,7 +60,7 @@ export const menu: Dish[] = [
     allergens: ['lait'],
     dietaryRestrictions: [],
     recommendedPairings: ['Vin rouge Niellucciu', 'Vin rouge Sciaccarellu'],
-    imageUrl: '/images/dishes/entrees/cappuccino.jpeg'
+    imageUrl: '/images/dishes/entrees/cappuccino.webp'
   },
   {
     id: 'starter3',
@@ -72,7 +72,7 @@ export const menu: Dish[] = [
     allergens: ['gluten', 'lait'],
     dietaryRestrictions: [],
     recommendedPairings: ['Vin blanc Vermentinu', 'Vin rosé Corse'],
-    imageUrl: '/images/dishes/entrees/bruschetta.jpeg'
+    imageUrl: '/images/dishes/entrees/bruschetta.webp'
   },
   {
     id: 'starter4',
@@ -84,7 +84,7 @@ export const menu: Dish[] = [
     allergens: ['gluten', 'lait', 'œuf'],
     dietaryRestrictions: [],
     recommendedPairings: ['Vin blanc Calvi', 'Vin rosé Sartène'],
-    imageUrl: '/images/dishes/entrees/arancini.jpeg'
+    imageUrl: '/images/dishes/entrees/arancini.webp'
   },
   {
     id: 'starter5',
@@ -96,7 +96,7 @@ export const menu: Dish[] = [
     allergens: ['gluten', 'lait'],
     dietaryRestrictions: [],
     recommendedPairings: ['Vin blanc Patrimonio', 'Vin rouge léger Ajaccio'],
-    imageUrl: '/images/dishes/entrees/raviole.jpeg'
+    imageUrl: '/images/dishes/entrees/raviole.webp'
   },
   {
     id: 'starter6',
@@ -108,7 +108,7 @@ export const menu: Dish[] = [
     allergens: ['lait', 'gluten'],
     dietaryRestrictions: ['végétarien'],
     recommendedPairings: ['Vin blanc Vermentinu', 'Vin rosé Figari'],
-    imageUrl: '/images/dishes/entrees/burratina.jpeg'
+    imageUrl: '/images/dishes/entrees/burratina.webp'
   },
   // Plats
   {
@@ -121,7 +121,7 @@ export const menu: Dish[] = [
     allergens: ['lait', 'œuf'],
     dietaryRestrictions: ['végétarien'],
     recommendedPairings: ['Vin blanc Vermentinu', 'Vin blanc Patrimonio'],
-    imageUrl: '/images/dishes/plats/risotto.jpeg'
+    imageUrl: '/images/dishes/plats/risotto.webp'
   },
   {
     id: 'main2',
@@ -133,7 +133,7 @@ export const menu: Dish[] = [
     allergens: ['gluten', 'lait'],
     dietaryRestrictions: ['végétarien'],
     recommendedPairings: ['Vin rouge Patrimonio', 'Vin rouge Ajaccio'],
-    imageUrl: '/images/dishes/plats/cannelloni.jpeg'
+    imageUrl: '/images/dishes/plats/cannelloni.webp'
   },
   {
     id: 'main3',
@@ -145,7 +145,7 @@ export const menu: Dish[] = [
     allergens: ['poisson', 'lait'],
     dietaryRestrictions: [],
     recommendedPairings: ['Vin blanc Vermentinu', 'Vin blanc Clos Culombu'],
-    imageUrl: '/images/dishes/plats/filet-de-bar.jpeg'
+    imageUrl: '/images/dishes/plats/filet-de-bar.webp'
   },
   {
     id: 'main4',
@@ -157,7 +157,7 @@ export const menu: Dish[] = [
     allergens: ['lait'],
     dietaryRestrictions: [],
     recommendedPairings: ['Vin rouge Patrimonio', 'Vin rouge Ajaccio'],
-    imageUrl: '/images/dishes/plats/cochon.jpeg'
+    imageUrl: '/images/dishes/plats/cochon.webp'
   },
   {
     id: 'main5',
@@ -169,7 +169,7 @@ export const menu: Dish[] = [
     allergens: ['lait', 'œuf'],
     dietaryRestrictions: [],
     recommendedPairings: ['Vin rouge Figari', 'Vin rouge Patrimonio'],
-    imageUrl: '/images/dishes/plats/rumsteak.jpeg'
+    imageUrl: '/images/dishes/plats/rumsteak.webp'
   },
   {
     id: 'main6',
@@ -181,7 +181,7 @@ export const menu: Dish[] = [
     allergens: [],
     dietaryRestrictions: [],
     recommendedPairings: ['Vin rouge Niellucciu', 'Vin rouge Sciaccarellu'],
-    imageUrl: '/images/dishes/plats/noix-de-veau.jpeg'
+    imageUrl: '/images/dishes/plats/noix-de-veau.webp'
   },
   // Desserts
   {
@@ -194,7 +194,7 @@ export const menu: Dish[] = [
     allergens: ['lait', 'fruits à coque', 'gluten'],
     dietaryRestrictions: ['végétarien'],
     recommendedPairings: ['Muscat du Cap Corse', 'Café Corsu'],
-    imageUrl: '/images/dishes/desserts/mousse-chocolat.jpeg'
+    imageUrl: '/images/dishes/desserts/mousse-chocolat.webp'
   },
   {
     id: 'dessert2',
@@ -206,7 +206,7 @@ export const menu: Dish[] = [
     allergens: ['lait', 'œuf', 'fruits à coque', 'gluten'],
     dietaryRestrictions: ['végétarien'],
     recommendedPairings: ['Muscat du Cap Corse', 'Limoncello maison'],
-    imageUrl: '/images/dishes/desserts/tiramisu-pistache.jpeg'
+    imageUrl: '/images/dishes/desserts/tiramisu-pistache.webp'
   },
   {
     id: 'dessert3',
@@ -218,7 +218,7 @@ export const menu: Dish[] = [
     allergens: ['lait', 'œuf', 'fruits à coque'],
     dietaryRestrictions: ['végétarien'],
     recommendedPairings: ['Muscat du Cap Corse', 'Vin de paille'],
-    imageUrl: '/images/dishes/desserts/fiadone.jpeg'
+    imageUrl: '/images/dishes/desserts/fiadone.webp'
   },
   {
     id: 'dessert4',
@@ -230,7 +230,7 @@ export const menu: Dish[] = [
     allergens: ['lait', 'œuf', 'gluten', 'fruits à coque'],
     dietaryRestrictions: ['végétarien'],
     recommendedPairings: ['Café Corsu', 'Muscat du Cap Corse'],
-    imageUrl: '/images/dishes/desserts/moelleux-choco-caramel.jpeg'
+    imageUrl: '/images/dishes/desserts/moelleux-choco-caramel.webp'
   },
   {
     id: 'dessert5',
@@ -242,6 +242,6 @@ export const menu: Dish[] = [
     allergens: ['lait', 'œuf', 'gluten', 'fruits à coque'],
     dietaryRestrictions: ['végétarien'],
     recommendedPairings: ['Café Corsu', 'Grappa'],
-    imageUrl: '/images/dishes/desserts/café-gustosu.png'
+    imageUrl: '/images/dishes/desserts/café-gustosu.webp'
   }
 ]; 

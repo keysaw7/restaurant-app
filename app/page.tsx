@@ -72,7 +72,7 @@ export default function HomePage() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ 
-          backgroundImage: "url('/images/bonifacio-sunset.jpeg')",
+          backgroundImage: "url('/images/bonifacio-sunset.webp')",
           backgroundPosition: "center 40%"
         }}
       >
@@ -232,7 +232,7 @@ export default function HomePage() {
                       <div key={dish.id} className="bg-white rounded-lg shadow-md overflow-hidden flex">
                         <div className="relative w-32 flex-shrink-0">
                           <Image
-                            src={dish.imageUrl || '/images/placeholder-dish.jpg'}
+                            src={dish.imageUrl || '/images/placeholder-dish.webp'}
                             alt={dish.name}
                             fill
                             className="object-cover"

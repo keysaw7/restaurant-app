@@ -280,7 +280,7 @@ export default function MenuPage() {
         <div 
           className="fixed inset-0 z-0"
           style={{ 
-            backgroundImage: "url('/images/bonifacio-day.jpeg')",
+            backgroundImage: "url('/images/bonifacio-day.webp')",
             backgroundAttachment: "fixed",
             backgroundSize: "cover",
             backgroundPosition: "center",
@@ -320,7 +320,7 @@ export default function MenuPage() {
                 >
                   <div className="relative h-48 w-full">
                     <Image
-                      src={dish.imageUrl || '/images/placeholder-dish.jpg'}
+                      src={dish.imageUrl || '/images/placeholder-dish.webp'}
                       alt={dish.name}
                       fill
                       className="object-cover"
@@ -343,7 +343,7 @@ export default function MenuPage() {
               <div className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
                 <div className="relative h-64 w-full">
                   <Image
-                    src={selectedDish.imageUrl || '/images/placeholder-dish.jpg'}
+                    src={selectedDish.imageUrl || '/images/placeholder-dish.webp'}
                     alt={selectedDish.name}
                     fill
                     className="object-cover"
