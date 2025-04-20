@@ -11,7 +11,6 @@ export default function HomePage() {
   const [recommendation, setRecommendation] = useState<string>('');
   const [recommendedDishes, setRecommendedDishes] = useState<Dish[]>([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
   const [selectedAllergens, setSelectedAllergens] = useState<string[]>([]);
   const [selectedRestrictions, setSelectedRestrictions] = useState<string[]>([]);
 
@@ -19,7 +18,6 @@ export default function HomePage() {
     if (!userPreferences) return;
     
     setIsLoading(true);
-    setError(null);
     
     try {
       const response = await fetch('/api/recommendation', {
@@ -41,8 +39,7 @@ export default function HomePage() {
       const data = await response.json();
       setRecommendation(data.recommendation);
       setRecommendedDishes(data.dishes);
-    } catch (err) {
-      setError('Une erreur est survenue. Veuillez réessayer.');
+    } catch {
       setRecommendedDishes([]);
     } finally {
       setIsLoading(false);
