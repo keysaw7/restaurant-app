@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Dish } from '../types/dish';
-import Image from 'next/image';
+import { OptimizedImage } from '@/lib/optimized-image';
 
 export default function MenuPage() {
   const [dishes, setDishes] = useState<Dish[]>([]);
@@ -319,12 +319,12 @@ export default function MenuPage() {
                   onClick={() => handleMoreInfo(dish)}
                 >
                   <div className="relative h-48 w-full">
-                    <Image
-                      src={dish.imageUrl || '/images/placeholder-dish.webp'}
+                    <OptimizedImage
+                      src={dish.imageUrl || '/images/placeholder-dish.jpg'}
                       alt={dish.name}
-                      fill
+                      width={800}
+                      height={600}
                       className="object-cover"
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
                   </div>
                   <div className="p-4">
@@ -342,12 +342,12 @@ export default function MenuPage() {
             <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
               <div className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
                 <div className="relative h-64 w-full">
-                  <Image
-                    src={selectedDish.imageUrl || '/images/placeholder-dish.webp'}
+                  <OptimizedImage
+                    src={selectedDish.imageUrl || '/images/placeholder-dish.jpg'}
                     alt={selectedDish.name}
-                    fill
+                    width={1200}
+                    height={800}
                     className="object-cover"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                 </div>
                 <div className="p-6">

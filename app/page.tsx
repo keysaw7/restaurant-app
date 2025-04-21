@@ -232,7 +232,7 @@ export default function HomePage() {
                       <div key={dish.id} className="bg-white rounded-lg shadow-md overflow-hidden flex">
                         <div className="relative w-32 flex-shrink-0">
                           <Image
-                            src={dish.imageUrl || '/images/placeholder-dish.webp'}
+                            src={dish.imageUrl || '/images/placeholder-dish.jpg'}
                             alt={dish.name}
                             fill
                             className="object-cover"
